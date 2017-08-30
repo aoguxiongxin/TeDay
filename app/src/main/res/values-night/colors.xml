@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--所有的字体颜色-->
+    <color name="TextColorValues">#d8d1d1</color>
+    <!--主页顶部的背景颜色-->
+    <color name="HanderImg">#7a0606</color>
+    <!--tablayout下划线颜色-->
+    <color name="DoweLineColor">#f608ba</color>
+    <!--tablayout字体颜色-->
+    <color name="TabTextColor">#949090</color>
+
+    <!--SlidingMenu更多登录方式背景颜色-->
+    <color name="OtherLoginColor">#292929</color>
+    <!--SlidingMenu菜单里面的分割线-->
+    <color name="Line">#c2bdbd</color>
+    <!--SlidingMenu登录方式(qq,手机,微信)北京-->
+    <color name="SlidingMenuLogin">#1E1E1E</color>
+    <!--SlidingMenu登录方式ListView和离线下载那一栏的颜色-->
+    <color name="SlidingMenuBackgroud">#212024</color>
+    <!--SlidingMenu右侧拉菜单背景颜色-->
+    <color name="Right_SlidingMenu_Color">#1d9098</color>
+    <!--XListView item间距线条颜色-->
+    <color name="ItemColor">#464646</color>
+    <!--popupwindow-->
+    <color name="popupwindow">#ebe7e7</color>
+
+    <!--离线下载下面ListView的背景颜色和我们截图的颜色一致-->
+    <color name="XiaZiaListViewBackGround">#252525</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="10dp"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/XiaZiaListViewBackGround">
+
+        <TextView
+            android:id="@+id/lx_goback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="&lt;"
+            android:textColor="@color/TextColorValues"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="离线下载"
+            android:textColor="@color/TextColorValues"
+            android:textSize="23sp"/>
+
+        <RadioButton
+            android:id="@+id/lixianxiazai"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/lixianxiazai"
+            android:text="下载"
+            android:textColor="@color/Line"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/Line"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:background="@color/XiaZiaListViewBackGround"
+        android:padding="7dp"
+        android:text="我的频道"
+        android:textColor="@color/Line"
+        android:textSize="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Line"/>
+
+    <ListView
+        android:id="@+id/lixian_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/XiaZiaListViewBackGround"
+        android:divider="@color/Line"
+        android:dividerHeight="1dp">
+
+    </ListView>
+
+</LinearLayout>

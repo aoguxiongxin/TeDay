@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!--SlidingFragment-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@color/SlidingMenuLogin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/mobile"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/mobile"/>
+
+            <ImageView
+                android:id="@+id/qq"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/qq"/>
+
+            <ImageView
+                android:id="@+id/sina"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/sina"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/otherlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/otherlogin"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="更多登录方式 >"
+            android:textColor="#d4cece"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/slidingmentListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/SlidingMenuBackgroud">
+
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/Line"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="@color/SlidingMenuBackgroud"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/xiazai_RadioButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/xiazai"
+            android:gravity="center"
+            android:text="离线下载"
+            android:textColor="@color/TextColorValues"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/daynight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/moshi"
+            android:gravity="center"
+            android:text="@string/DayOrNight"
+            android:textColor="@color/TextColorValues"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/rb_shezhi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/shezhi"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@color/TextColorValues"
+            android:textSize="18sp"/>
+
+    </RadioGroup>
+
+</LinearLayout>

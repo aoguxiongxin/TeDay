@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="180dp"
+              android:layout_height="35dp"
+              android:background="@color/popupwindow"
+              android:gravity="center"
+              android:minHeight="35dp"
+              android:minWidth="180dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="阅读"
+        android:textColor="@color/SlidingMenuBackgroud"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="收藏"
+        android:textColor="@color/SlidingMenuBackgroud"/>
+
+    <TextView
+        android:id="@+id/pop_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="@color/SlidingMenuBackgroud"/>
+
+    <ImageView
+        android:id="@+id/pop_close"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@mipmap/close"
+        />
+
+</LinearLayout>
